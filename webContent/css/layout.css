@@ -1,0 +1,460 @@
+@charset "utf-8";
+
+/* 헤더 */
+#header {
+    margin: 0 auto;
+    box-sizing: border-box;
+    transition: background 0.3s ease 0s;
+    position: relative;
+    z-index: 990;
+    padding: 0;
+    box-shadow: rgb(0 0 0 / 12%) 0px 0px 18px 0px;
+    font-size: 16px;
+    background-color: rgb(255, 255, 255);
+}
+#header-container {
+    box-sizing: border-box;
+    display: block;
+    top: 0px;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* 로그인 메뉴 */
+#header .btn-login {
+    width: 1200px;
+    height: 46px;
+    padding-top: 24px;
+    margin: 0 auto;
+}
+#header .btn-login .menu-login {
+    float: right;
+}
+#header .btn-login .menu-login > li {
+    display: inline-block;
+    text-align: center;
+    padding: 0 15px;
+    border-right: 1px solid #444;
+}
+#header .btn-login .menu-login > li:last-child {
+    border-right: none;
+}
+#header .btn-login .menu-login li a{
+    color: #2E2E2E;
+}
+
+/* 로고 이미지 */
+#header .img-logo {
+    width: 1200px;
+    height: 100px;
+    text-align: center;
+    margin: 10px auto 35px auto;
+}
+
+/* 메인메뉴 */
+#header *::after, #header *::before {
+    box-sizing: border-box;
+}
+#header .btn-menu #gnbMenu {
+    position: relative;
+    display: inline-block;
+    margin-top: 14px;
+}
+#header .btn-menu {
+    min-width: 1200px;
+    width: 100%;
+    height: 60px;
+    background: #FF0000;
+}
+#header .btn-menu ul {
+    width: auto;
+    height: 38px;
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #444;
+}
+#header .btn-menu .menu-main li {
+    display : inline-block; 
+    transition: all 0.25s ease 0s;
+    margin: 0px 35px;
+    border-radius: 4px;
+    position: relative;
+    padding: 0;
+}
+#header .btn-menu .menu-main a {
+    display: block;
+    font-size: 20px;
+    line-height: 23px;
+    padding: 7px 10px;
+    border-right: 4px;
+}
+#header .btn-menu .menu-main li:hover a {
+    color: #ccc;
+}
+#header .btn-menu .menu-main li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    transition: all 0.3s;
+}
+/* Index 메인 */
+#container {
+    min-width: 1200px;
+    margin: 0 auto;
+}
+/*살방 서브 */
+#container .title-subpage-input {
+    width: 1000px;
+    height: 321px;
+    margin: 80px auto 35px auto;	
+    border: 1px solid #FF0000;
+}
+#container .salbang-title {
+    width: 998px;
+    height: 100px;
+}
+#container .salbang-sub-title {
+    width: 996px;
+    height: 73px;
+    padding-top: 25px;
+    text-align: center;
+    font-size:25px;
+}
+#container .salbang-subpage {
+    width: 998px;
+    height: 100px;
+    padding-top: 15px;
+    text-align: center;
+    font-size:25px;
+}
+#container .salbang-house {
+    width: 612px;
+    height: 68px;
+    margin: 0 192px 0 192px;
+}
+#container .one-tworoom {
+    width: 100px;
+    height: 40px;
+    padding-top: 20px;
+    text-align: center;
+    float: left;
+    font-size:17px;
+    border: 1px solid #FF0000;
+}
+#container .apt {
+    width: 100px;
+    height: 40px;
+    padding-top: 20px;
+    text-align: center;
+    float: left;
+    font-size:17px;
+    border: 1px solid #FF0000;
+}
+#container .villa {
+    width: 100px;
+    height: 40px;
+    padding-top: 20px;
+    text-align: center;
+    float: left;
+    font-size:17px;
+    border: 1px solid #FF0000;
+}
+#container .officetels {
+    width: 100px;
+    height: 40px;
+    padding-top: 20px;
+    text-align: center;
+    float: left;
+    font-size:17px;
+    border: 1px solid #FF0000;
+}
+#container .office {
+    width: 100px;
+    height: 40px;
+    padding-top: 20px;
+    text-align: center;
+    float: left;
+    font-size:17px;
+    border: 1px solid #FF0000;
+}
+#container .factory {
+    width: 100px;
+    height: 40px;
+    padding-top: 20px;
+    text-align: center;
+    float: left;
+    font-size:17px;
+    border: 1px solid #FF0000;
+}
+#container .salbang-input {
+    width: 998px;
+    height: 100px;
+}
+#container .slabang-input-box {
+    width: 500px;
+    height: 60px;
+    margin: 0 248px 0 248px;
+}
+#container .localpeople-address {
+    width: 300px;
+    height: 40px;
+    margin: 0 100px 0 100px;
+}
+/* 공지사항 */
+#container .content {
+    width: 1200px;
+    height: 300px;
+    margin: 80px auto 35px auto;	
+}
+#container .notice-board {
+	width:380px;
+    height: 298px;
+    float:left;	
+}
+#container .notice {
+	width:380px;
+    height: 50px;
+	border-bottom: 3px solid #FF0000;
+    background-color: rgb(255, 255, 255);	
+}
+#container .notice-title{
+	width:380px;
+	height:43px;
+    float:left;
+    text-align: center;
+	font-size:20px;	
+}
+#container .btn-notice{
+	float:right;
+	width:76px;
+	height:43px;
+	padding: 25px 0 0 20px;
+	font-size:25px;
+	color:gray;	
+}
+#container .notice-content{
+	padding : 10px 0 0 10px;
+}
+#container .notice-content li{
+    list-style: none;
+	padding : 9px 0;
+}
+#container .notice-content li a{
+	font-size:13px;
+    color: #2E2E2E;
+}
+#container .notice-content li a span{
+	float:right;
+	font-size:13px;
+    color: #2E2E2E;
+    padding-right: 10px;
+}
+/* 인테리어 */
+#container .interior-board{
+	width:380px;
+    height: 298px;
+    float:left;	
+    margin-left: 27px;
+}
+#container .interior{
+	width:380px;
+    height: 50px;
+	border-bottom: 3px solid #FF0000;
+    background-color: rgb(255, 255, 255);	
+}
+#container .interior-title{
+	width:380px;
+	height:43px;
+    float:left;
+    text-align: center;
+	font-size:20px;	
+}
+#container .btn-interior{
+	float:right;
+	width:76px;
+	height:43px;
+	padding: 25px 0 0 20px;
+	font-size:25px;
+	color:gray;	
+}
+#container .interior-content{
+	padding : 10px 0 0 10px;
+}
+#container .interior-content li{
+    list-style: none;
+	padding : 9px 0;
+}
+#container .interior-content li a{
+	font-size:13px;
+    color: #2E2E2E;
+}
+#container .interior-content li a span{
+	float:right;
+	font-size:13px;
+    color: #2E2E2E;
+    padding-right: 10px;
+}
+/* 뉴스 */
+#container .news-board{
+	width:380px;
+    height: 298px;
+    float:left;	
+    margin-left: 27px;
+}
+#container .news{
+	width:380px;
+    height: 50px;
+	border-bottom: 3px solid #FF0000;
+    background-color: rgb(255, 255, 255);	
+}
+#container .news-title{
+	width:380px;
+	height:43px;
+    float:left;
+    text-align: center;
+	font-size:20px;	
+}
+#container .btn-news{
+	float:right;
+	width:76px;
+	height:43px;
+	padding: 25px 0 0 20px;
+	font-size:25px;
+	color:gray;	
+}
+#container .news-content{
+	padding : 10px 0 0 10px;
+}
+#container .news-content li{
+    list-style: none;
+	padding : 9px 0;
+}
+#container .news-content li a{
+	font-size:13px;
+    color: #2E2E2E;
+}
+#container .news-content li a span{
+	float:right;
+	font-size:13px;
+    color: #2E2E2E;
+    padding-right: 10px;
+}
+
+#footer {
+    width: 100%;
+}
+/* 이용안내 */
+#footer .informationuse,
+#footer .favorites-service {
+	background-color: rgb(220, 220, 220);	
+    width: 100%;
+}
+#footer .content {
+    width: 1200px;
+    height: 80px;
+    margin: 80px auto 35px auto;			
+}
+#footer .content li{
+    list-style: none;			
+}
+#footer .information-use {
+    width: 100px;
+    height: 48px;
+    padding-top:30px ;
+    text-align: center;
+    float: left;		
+}
+#footer .terms-of-use {
+    width: 100px;
+    height: 48px;
+    padding-top:30px ;
+    text-align: center;
+    float: left;		
+}
+#footer .privacy {
+    width: 150px;
+    height: 48px;
+    padding-top:30px ;
+    text-align: center;
+    float: left;		
+}
+#footer .service-center {
+    width: 100px;
+    height: 48px;
+    padding-top:30px ;
+    text-align: center;
+    float: left;    	
+}
+
+/* 협력업체 */
+#footer .content02 {
+    width: 1200px;
+    height: 56px;
+    margin: 30px auto 35px auto;
+}  
+#footer .deposit-account li{
+    list-style: none;		
+} 
+#footer .lg{
+    width: 178px;
+    height: 52px;
+    margin: 0 10px 0 10px;
+    float: left;
+    border: 1px solid rgb(205, 205, 205);		
+}
+#footer .unipass{
+    width: 179px;
+    height: 52px;
+    margin-right: 10px;
+    float: left;
+    border: 1px solid rgb(205, 205, 205);		
+}  
+#footer .kcs{
+    width: 179px;
+    height: 52px;
+    margin-right: 10px;
+    float: left;
+    border: 1px solid rgb(205, 205, 205);		
+}  
+#footer .kcssa{
+    width: 179px;
+    height: 52px;
+    margin-right: 10px;
+    float: left;
+    border: 1px solid rgb(205, 205, 205);		
+}  
+#footer .kcsa{
+    width: 179px;
+    height: 52px;
+    margin-right: 10px;
+    float: left;
+    border: 1px solid rgb(205, 205, 205);		
+}  
+#footer .ksci{
+    width: 179px;
+    height: 52px;
+    float: left;
+    border: 1px solid rgb(205, 205, 205);		
+}   
+/* 협력업체 */
+#footer .content03 {
+    width: 1200px;
+    height: 212px;
+    margin: 30px auto 35px auto;	
+}  
+#footer .mutual{
+    width: 1198px;
+    height: 90px;
+    padding-top: 20px;
+    font-size: 16px;
+    	
+}
+#footer .salbang-logo{
+    width: 250px;
+    height: 98px;
+    float: right;	
+}  
+ 
